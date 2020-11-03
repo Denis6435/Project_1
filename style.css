@@ -57,13 +57,226 @@ li {
 .box-box {
 	width: 20%;
 }
-p::first-letter {
+.abc::first-letter {
 	font-size: 1.5em;
 	background-color: #000;
 	color: #fff;
 	margin-right: 0.2em;
 	padding: 0 0.2em 0.1em
 }
-.box-box >p {
+.box-box >.cava1 {
 padding: 20px 0 20px 0;
+}
+
+
+.cava{
+	width: 300px;
+	height: 300px;
+	background-color: #C416D9;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	justify-content: center;
+}
+
+.cava .cava2{
+	transition: 0.2s;
+	transform: translateY(20px);
+
+}
+
+
+.cava .cava1{
+	transition: 0.2s;
+	transform: translateY(-20px);
+	opacity: 0;
+	visibility: hidden;
+}
+.cava:before{
+	content: '';
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border-top: solid 2px;
+	border-bottom: solid 2px;
+	transition: 0.2s;
+	transform: scaleX(0);
+}
+
+.cava:after{
+	content: '';
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border-right: solid 2px;
+	border-left: solid 2px;
+	transition: 0.2s;
+	transform: scaleY(0);
+}
+
+
+.cava:hover:before,
+.cava:hover:after{
+	transform: scale(1);
+}
+.cava:hover .cava2,
+.cava:hover .cava1{
+	transform: translateY(0);
+	opacity: 1;
+	visibility: visible;
+}
+
+.cava {
+	background-image: url(img/img1.jpg);
+}
+
+.box-box >.velo1 {
+padding: 20px 0 20px 0;
+}
+
+.velo{
+	width: 300px;
+	height: 300px;
+	background-color: #C416D9;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	justify-content: center;
+}
+
+.velo .velo2{
+	transition: 0.2s;
+	transform: translateY(20px);
+
+}
+
+
+.velo .velo1{
+	transition: 0.2s;
+	transform: translateY(-20px);
+	opacity: 0;
+	visibility: hidden;
+}
+.velo:before{
+	content: '';
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border-top: solid 2px;
+	border-bottom: solid 2px;
+	transition: 0.2s;
+	transform: scaleX(0);
+}
+
+.velo:after{
+	content: '';
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border-right: solid 2px;
+	border-left: solid 2px;
+	transition: 0.2s;
+	transform: scaleY(0);
+}
+
+
+.velo:hover:before,
+.velo:hover:after{
+	transform: scale(1);
+}
+
+.velo:hover .velo2,
+.velo:hover .velo1{
+	transform: translateY(0);
+	opacity: 1;
+	visibility: visible;
+}
+
+.velo {
+	background-image: url(img/img2.jpg);
+}
+
+
+.box-box >.chai1 {
+padding: 20px 0 20px 0;
+}
+
+.chai{
+	width: 300px;
+	height: 300px;
+	background-color: #C416D9;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	justify-content: center;
+}
+
+.chai .chai2{
+	transition: 0.2s;
+	transform: translateY(20px);
+
+}
+
+
+.chai .chai1{
+	transition: 0.2s;
+	transform: translateY(-20px);
+	opacity: 0;
+	visibility: hidden;
+}
+.chai:before{
+	content: '';
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border-top: solid 2px;
+	border-bottom: solid 2px;
+	transition: 0.2s;
+	transform: scaleX(0);
+}
+
+.chai:after{
+	content: '';
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border-right: solid 2px;
+	border-left: solid 2px;
+	transition: 0.2s;
+	transform: scaleY(0);
+}
+
+
+.chai:hover:before,
+.chai:hover:after{
+	transform: scale(1);
+}
+
+.chai:hover .chai2,
+.chai:hover .chai1{
+	transform: translateY(0);
+	opacity: 1;
+	visibility: visible;
+}
+
+.chai {
+	background-image: url(img/cup1.jpg);
 }
